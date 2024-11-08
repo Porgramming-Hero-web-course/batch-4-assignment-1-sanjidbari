@@ -1,6 +1,8 @@
-function sumArray(input: number[]):number {
-    var sum = 0;
-    input.map(numbers => sum = sum + numbers);
+//Problem 1
+
+function sumArray(input: number[]): number {
+    let sum = 0;
+    input.map(numbers => sum += numbers);
     return sum;
 }
 
