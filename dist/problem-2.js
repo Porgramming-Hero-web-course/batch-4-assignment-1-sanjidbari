@@ -1,4 +1,5 @@
 "use strict";
+//Problem 2
 function removeDuplicates(nums) {
     var newNums = [];
     var temp;

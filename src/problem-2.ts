@@ -1,3 +1,5 @@
+//Problem 2
+
 function removeDuplicates(nums: number[]): number[] {
     let newNums: number[] = [];
     let temp: number;
