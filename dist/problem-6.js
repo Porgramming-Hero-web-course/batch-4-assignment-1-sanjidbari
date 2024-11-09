@@ -14,5 +14,9 @@ var __assign = (this && this.__assign) || function () {
 function updateProfile(profile, updates) {
     return __assign(__assign({}, profile), updates);
 }
-var myProfile = { name: "Alice", age: 25, email: "alice@example.com" };
+var myProfile = {
+    name: "Alice",
+    age: 25,
+    email: "alice@example.com"
+};
 console.log(updateProfile(myProfile, { age: 26 }));
