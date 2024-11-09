@@ -7,7 +7,7 @@ var Car = /** @class */ (function () {
         this.year = year;
     }
     Car.prototype.getCarAge = function () {
-        return this.year - 2024;
+        return 2024 - this.year;
     };
     return Car;
 }());
